@@ -29,7 +29,7 @@ export class ShoppingListComponent implements OnInit,OnDestroy {
   }
 
   onEditItem(index:number) {
-    this.slService.startedEdiiting.next(index);
+    this.slService.startedEditing.next(index);
 
   }
 }
